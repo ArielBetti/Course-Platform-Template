@@ -1,0 +1,126 @@
+body{
+    font-family: 'Raleway','Roboto', sans-serif;
+    background-image: linear-gradient(hsl(271, 100%, 21%),#6a1b9a);
+    height: 100vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #6a1b9a;
+}
+
+.myapp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.listanumerica {
+    list-style: decimal;
+    padding: 25px;
+}
+
+.listanumerica > .item {
+    padding: 5px 0px 5px 0px;
+}
+
+.btnnext {
+    background-image: linear-gradient(#38006b,#6a1b9a);
+    color: #fff;
+    border: none;
+    font-size: 1.25em;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 100px;
+    margin-right: 10px;
+}
+
+.btnmenu {
+    position: absolute;
+    color: #000;
+    font-size: 1.25em;
+    font-weight: bold;
+    top: 20px;
+    left: 0px;
+    background-color: rgba(17, 2, 17, 0.6);
+    border-radius: 0px 10px 10px 0px;
+    width: 50px;
+    z-index: 9999;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1950ms;
+}
+
+.thismenu {
+    color: #fff;
+    padding: 2px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 1300ms;
+}
+
+.btnmenu:hover {
+    width: 100px;
+}
+
+.svgmenu {
+    height: 20px;
+    transition: 900ms;
+    padding-right: 5px;
+}
+
+._center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.identifica {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #424242;
+}
+
+.exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    background-color: transparent;
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 10px
+}
+
+.exit > .svgmenu {
+    padding-left: 5px;
+    transform: rotate(180deg);
+}
+
+.apresentaponto {
+    font-size: 1.25em;
+    color: #38006b;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.controle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+

@@ -1,0 +1,28 @@
+._hideon {
+    display: none !important;
+}
+
+._activemenu {
+    transform: translateX(0px) !important;
+    transition: 1500ms;
+}
+
+._arrowleft {
+    transform: translateX(-100%) !important;
+}
+
+._rotation {
+    transform: rotate(-180deg);
+}
+
+._opacity {
+    opacity: 0 !important;
+}
+
+._correct {
+    box-shadow: 0px 0px 3px 0px green !important;
+}
+
+._incorrect {
+    box-shadow: 0px 0px 3px 0px red;
+}

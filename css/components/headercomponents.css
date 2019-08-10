@@ -1,0 +1,34 @@
+.myapp-header {
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    overflow: auto;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    transform: translateX(-99999px);
+    transition: 1500ms;
+}
+
+.title{
+    font-size: 2.25em;
+    padding-top: 10px;
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+}
+
+.aulas{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.aula {
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+}
